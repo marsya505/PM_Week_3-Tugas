@@ -21,3 +21,17 @@ int hitungFaktorial(int n) {
   return hasil;
 }
 
+// fungsi untuk mengkategorikan ukuran angka menggunakan switch case
+String kategorisasiAngka(int angka) {
+  int range = (angka / 10).floor(); // menggunakan pembagian untuk menentukan kategori range
+  
+  switch (range) {
+    case 0:
+      return "Satuan/Puluhan Kecil";
+    case 1:
+    case 2:
+      return "Puluhan Menengah";
+    default:
+      return "Angka Besar";
+  }
+}
