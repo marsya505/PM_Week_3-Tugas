@@ -1,0 +1,3 @@
+This program is used to process several numbers stored in a list. Each number will be analyzed one by one using a for-in loop. In the process, the program checks whether the number is odd or even, determines whether it is a prime number, calculates the factorial value, and groups the number into a specific category.
+
+To perform this process, the program utilizes several separate functions, such as functions to check for prime numbers, calculate factorials, and determine number categories using switch cases. This program illustrates the use of loops, branches, and function calls to process number data and display various mathematical information from each number processed.
