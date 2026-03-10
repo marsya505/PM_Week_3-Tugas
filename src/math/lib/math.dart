@@ -11,3 +11,13 @@ bool apakahPrima(int angka) {
   }
   return true;
 }
+
+// fungsi untuk menghitung faktorial dari sebuah angka
+int hitungFaktorial(int n) {
+  int hasil = 1;
+  for (int i = 1; i <= n; i++) { // perulangan 'for' untuk perkalian beruntun
+    hasil *= i;
+  }
+  return hasil;
+}
+
